@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+        nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: rgb(241, 238, 238);
+    position: fixed;
+    top:0;
+    z-index: 1;
+    list-style-type: none;
+}
+    
+      li {
+        float: right;
+        padding: 20px;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+      
+
+      section {
+    margin-top: 15px;
+    overflow: auto;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+.row {
+    margin: auto;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.column {
+    margin: 0px;
+    float: left;
+    width: 32%;
+    padding: 8px;
+    opacity: 0.7;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.column:hover {
+    opacity: 1;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    font-size: xx-large;
+    border: 5px solid white;
+    padding: 20px;
+}
+
+.box:hover {
+    border: 5px solid black;
+    background-color: slategray;
+    opacity: 0.8;
+    color: black;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    border-top: 1px solid darkgray;
+    padding: 50px 20px;
+    margin-top: 10px;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.row::after {
+    clear: both;
+    display: table;
+}
+
+a {
+    color: black;
+}
+
+.fRight {
+    float: right;
+}
+
+.fLeft {
+    float: left;
+    padding: 20px;
+}
+.foot2{
+
+
+width: 88%;
+text-align: center;
+padding: 20px;
+}
+.text{
+    text-align: center;
+    background-color: black;
+    color:wheat;
+    padding: 2px;
+}
